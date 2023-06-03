@@ -1,15 +1,8 @@
 # pierre-dev.com
 
-Homepage of Pierre Dahmani
+Content of https://pierre-dev.com
 
-## Blog
-
-Writeups and opinions of stuff I work or play around with. Will probably contain
-something on the lines of Typescript, nodejs, software architecture, code
-quality, cloud, IaC, CICD, automation, functional programming, programming
-languages, etc..
-
-The stuff below is leftover from setting up the project. [src](https://github.com/mui/material-ui/tree/master/examples/material-next-ts)
+The stuff below is leftover from setting up the project with the nextjs mui ts example from [here](https://github.com/mui/material-ui/tree/master/examples/material-next-ts).
 
 # Material UI - Next.js example in TypeScript
 
