@@ -1,6 +1,6 @@
 # pierre-dev.com
 
-Content of https://pierre-dev.com
+Content of https://pierre-dev.com 
 
 The stuff below is leftover from setting up the project with the nextjs mui ts example from [here](https://github.com/mui/material-ui/tree/master/examples/material-next-ts).
 
