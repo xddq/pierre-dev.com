@@ -52,7 +52,13 @@ export default function Home() {
         </Box>
         <Typography sx={{ marginTop: 2 }}>
           I value open source and have started maintaining a few small packages
-          like schema2typebox, ts2typebox and nodejs-typescript-modern-starter.
+          like{" "}
+          <a href="https://github.com/xddq/schema2typebox">schema2typebox</a>,{" "}
+          <a href="https://github.com/xddq/ts2typebox">ts2typebox</a> and{" "}
+          <a href="https://github.com/xddq/nodejs-typescript-modern-starter">
+            nodejs-typescript-modern-starter
+          </a>
+          .
         </Typography>
         <Typography sx={{ marginTop: 2 }}>
           I am passionate about functional programming and secretly dream of
