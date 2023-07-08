@@ -1,7 +1,8 @@
 import * as React from "react";
 import Container from "@mui/material/Container";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -11,10 +12,16 @@ const Navbar = () => {
           marginTop: 2,
           display: "flex",
           flexDirection: "row",
-          justifyContent: "flex-end",
+          justifyContent: "space-evenly",
           alignItems: "center",
         }}
       >
+        <Link href="/">
+          <Typography variant="h6">Home</Typography>
+        </Link>
+        <Link href="/projects">
+          <Typography variant="h6">Projects</Typography>
+        </Link>
         <a href="https://www.github.com/xddq" target="_blank">
           <GitHubIcon />
         </a>
@@ -22,16 +29,5 @@ const Navbar = () => {
     </Container>
   );
 };
-
-// TODO: later might  add these.
-// <Link href="/">
-//   <Typography variant="h6">Home</Typography>
-// </Link>
-// <Link href="/blog">
-//   <Typography variant="h6">Blog</Typography>
-// </Link>
-// <Link href="/projects">
-//   <Typography variant="h6">Projects</Typography>
-// </Link>
 
 export default Navbar;
