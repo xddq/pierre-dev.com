@@ -51,10 +51,6 @@ export default function Home() {
           </Avatar>
         </Box>
         <Typography sx={{ marginTop: 2 }}>
-          I am a big fan of TDD, actually enjoy writing documentation and prefer
-          automating the painful/boring stuff away.
-        </Typography>
-        <Typography sx={{ marginTop: 2 }}>
           I value open source and have started maintaining a few small packages
           like{" "}
           <a href="https://github.com/xddq/schema2typebox">schema2typebox</a>,{" "}
