@@ -39,7 +39,7 @@ export default function Home() {
             </Typography>
             <Typography sx={{ marginTop: 2 }}>
               On the job, I mostly build serverless architectures using
-              Typescript, deployed with IaC Tools like terraform and serverless.
+              Typescript and terraform, deployed to AWS or Azure.
             </Typography>
           </Box>
           <Avatar sx={{ width: 130, height: 130 }}>

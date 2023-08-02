@@ -22,6 +22,9 @@ const Navbar = () => {
         <Link href="/projects">
           <Typography variant="h6">Projects</Typography>
         </Link>
+        <Link href="/uses">
+          <Typography variant="h6">uses</Typography>
+        </Link>
         <a href="https://www.github.com/xddq" target="_blank">
           <GitHubIcon />
         </a>
