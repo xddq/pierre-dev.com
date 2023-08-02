@@ -27,34 +27,40 @@ export default function Projects() {
           <a href="https://www.teamly-apps.com/">WeShop (2022)</a>
         </Typography>
         <Typography sx={{ width: "100%", marginTop: 2 }}>
-          An offline-first shopping list app with real-time sync of shared
-          shopping lists and push notifications such as "I just started shopping
-          at X", without ads.
+          Android and (ex, did not pay the fee again after one year) iOS
+          shopping list app with syncinc of shared shopping lists via
+          websockets. A short video showcasing the app can be found{" "}
+          <a
+            href="https://www.teamly-apps.com/weshop-ad-video-final-music-happy.mp4"
+            target="_blank"
+          >
+            here
+          </a>
+          .
         </Typography>
         <Typography sx={{ width: "100%", marginTop: 2 }}>
-          <b>Some used tech</b>: Websockets, GraphQL, Typescript, PostgreSQL,
-          Redis, Docker, Automated Gitlab Pipelines, Git, Nodejs, React Native
-          (iOS && Android apps),
+          I created the backend and (somewhat sadly also had to) create the
+          frontend all on my own. Writing the backend was most fun for me here.
+          I mainly used Typescript, Redis and PostgreSQL. I wrote my own
+          registration and login (and experienced how painful this can be :D).
+          Diving into GraphQL as the API technology was great fun, I did my
+          bachelor thesis on GraphQL in the same time and was happy to bring the
+          knowledge to use. The frontend was written in React Native. I did not
+          even use react before and it was therefore somewhat painful to learn.
+          But at least I am now capable of also writing frontend code with react
+          and/or react native.
         </Typography>
         <Typography sx={{ width: "100%", marginTop: 2 }}>
-          <b>Motivation</b>: Learning. Somehow got notice of CRDTs and wanted to
-          test them in practice. Also wanted to try out React Native and was in
-          need of a shopping app for me and my partner which did not bombard us
-          with ads, had fast and reliable syncing and notifications when one
-          starts and stops shopping.
-        </Typography>
-        <Typography sx={{ width: "100%", marginTop: 2 }}>
-          <b>Learnings</b>: 1. I learned a lot of react and react native (never
-          used either before) and they are great (now my favourite, when I have
-          to touch frontend) web ui tech! 2. Fixing bugs and deploying new
-          versions for mobile apps is way harder than websites. For the future,
-          rely on web apps whenver possible. 3. While fastlane is a great tool
-          to automate away app deployments, there are still special cases for
-          iOS and android and e.g. when adding notifications and automated e2e
-          testing, stuff can get complicated. 4. While CRDTs are fun, they make
-          code more complicated. 5. Doing bigger projects alone is not that much
-          fun. Start something bigger with friends the next time! Preferably
-          some who prefer doing frontend so I can focus in the backend part :p.
+          <b>Learnings</b>: 1. Backend is where the fun is for me. 2. Writing
+          GraphQL really code first (just with the "graphql" package) is a valid
+          option and gives you great composeability. 3. Automatically generating
+          typed queries based on the GraphQL queries as well as not having to
+          create swagger/Openapi documentations for your API are definetly some
+          nice benefits you get when using GraphQL. 3. For side projects one
+          should really focus on having a low maintenance burden and creating a
+          mobile app definetly is not. Fixing issues and getting them live on
+          iOS as well as android is painful (compared to hosting the app on the
+          web).
         </Typography>
       </Box>
     </Layout>
