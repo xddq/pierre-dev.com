@@ -16,9 +16,10 @@ export default function Projects() {
         }}
       >
         <Typography>
-          These are only projects not published in my github account. For what
-          else I currently think is somewhat worth sharing, check my pinned
-          projects <a href="https://github.com/xddq">here</a>.
+          These are only projects not published in my github account. Most stuff
+          I code on the side is available under my github. To get an overview, it is worth
+          to rather check out my recent currently pinned projects <a
+            href="https://github.com/xddq">here</a>.
         </Typography>
         <Typography
           variant="h4"
@@ -56,7 +57,7 @@ export default function Projects() {
           option and gives you great composeability. 3. Automatically generating
           typed queries based on the GraphQL queries as well as not having to
           create swagger/Openapi documentations for your API are definetly some
-          nice benefits you get when using GraphQL. 3. For side projects one
+          nice benefits you get when using GraphQL. 4. For side projects one
           should really focus on having a low maintenance burden and creating a
           mobile app definetly is not. Fixing issues and getting them live on
           iOS as well as android is painful (compared to hosting the app on the

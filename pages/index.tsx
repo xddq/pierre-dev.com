@@ -34,12 +34,14 @@ export default function Home() {
             }}
           >
             <Typography variant="body1">
-              Hey! I'm Pierre, a backend engineer solving customer problems in
-              the cloud at they consulting.
+              Hey! I'm Pierre, a software engineer currently working for <a
+                href="https://they-consulting.de">they consulting</a> solving problems
+              leveraging "the cloud". I am passionate about functional programming and might
+              be secretly in love with Haskell.
             </Typography>
             <Typography sx={{ marginTop: 2 }}>
               On the job, I mostly build serverless architectures using
-              Typescript and terraform, deployed to AWS or Azure.
+              Typescript and terraform, deploying to AWS or Azure.
             </Typography>
           </Box>
           <Avatar sx={{ width: 130, height: 130 }}>
@@ -61,8 +63,8 @@ export default function Home() {
           .
         </Typography>
         <Typography sx={{ marginTop: 2 }}>
-          I am passionate about functional programming and secretly dream of
-          Haskell.
+          You might have noticed, while I am capable of writing frontend, full
+          stack and backend apps, I am definetly NOT a web designer :p.
         </Typography>
       </Box>
     </Layout>
