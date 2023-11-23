@@ -21,7 +21,7 @@ export default function MyApp(props: MyAppProps) {
     <CacheProvider value={emotionCache}>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-        <script defer data-domain="pierre-dev.com" src="https://plausible.io/js/script.js"></script>
+        <script defer data-domain="pierre-dev.com" src="https://plausible.pierre-dev.com/js/script.js"></script>
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
