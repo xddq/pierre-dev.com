@@ -1,4 +1,3 @@
-import * as React from "react";
 import Container from "@mui/material/Container";
 import { Box, Typography } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -18,9 +17,6 @@ const Navbar = () => {
       >
         <Link href="/">
           <Typography variant="h6">Home</Typography>
-        </Link>
-        <Link href="/projects">
-          <Typography variant="h6">Projects</Typography>
         </Link>
         <Link href="/uses">
           <Typography variant="h6">uses</Typography>

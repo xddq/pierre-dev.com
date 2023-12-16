@@ -1,4 +1,3 @@
-import * as React from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Avatar from "@mui/material/Avatar";
@@ -34,15 +33,10 @@ export default function Home() {
             }}
           >
             <Typography variant="body1">
-              Hey! I'm Pierre, a software engineer currently working for <a
-                href="https://they-consulting.de">they consulting</a> solving problems
-              leveraging "the cloud". I am passionate about functional programming and might
-              be secretly in love with Haskell.
-            </Typography>
-            <Typography sx={{ marginTop: 2 }}>
-              On the job, I mostly build serverless architectures using
-              Typescript and terraform, deploying to AWS or Azure.
-            </Typography>
+              Hey! I'm Pierre, a software engineer working for <a
+                href="https://they-consulting.de" target="_blank"> they consulting GmbH</a>, helping companies around
+              the world build reliable and scalable solutions.
+              I have been coding on a daily basis for the better part of the last 5 years. Starting with part time jobs besides my studies in 2018.</Typography>
           </Box>
           <Avatar sx={{ width: 130, height: 130 }}>
             <Image
@@ -52,19 +46,21 @@ export default function Home() {
             />
           </Avatar>
         </Box>
-        <Typography sx={{ marginTop: 2 }}>
+        <Typography variant="body1" sx={{ marginTop: 2 }}>
+          I eat plants and enjoy cooking. If you do as well, you might enjoy my latest side project, <a href="https://veg24.de" target="_blank">veg24.de</a>.
+        </Typography>
+        <Typography variant="body1" sx={{ marginTop: 2 }}>
           I value open source and have started maintaining a few small packages
           like{" "}
-          <a href="https://github.com/xddq/schema2typebox">schema2typebox</a>,{" "}
-          <a href="https://github.com/xddq/ts2typebox">ts2typebox</a> and{" "}
-          <a href="https://github.com/xddq/nodejs-typescript-modern-starter">
+          <a href="https://github.com/xddq/schema2typebox" target="_blank">schema2typebox</a>,{" "}
+          <a href="https://github.com/xddq/ts2typebox" target="_blank">ts2typebox</a> and{" "}
+          <a href="https://github.com/xddq/nodejs-typescript-modern-starter" target="_blank">
             nodejs-typescript-modern-starter
           </a>
           .
         </Typography>
-        <Typography sx={{ marginTop: 2 }}>
-          You might have noticed, while I am capable of writing frontend, full
-          stack and backend apps, I am definetly NOT a web designer :p.
+        <Typography variant="body1" sx={{ marginTop: 2 }}>
+          Contact me via email at <a href="mailto:hi@pierre-dev.com">hi@pierre-dev.com</a>
         </Typography>
       </Box>
     </Layout>
